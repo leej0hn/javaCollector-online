@@ -1,0 +1,6 @@
+### idea ###
+.idea
+
+### vue ###
+**/dist/
+/node_modules
