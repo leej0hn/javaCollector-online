@@ -29,6 +29,16 @@ module.exports = {
                 children: []
             },
             {
+                title: "数据结构",
+                collapsable: false,
+                children: [
+                    {
+                        title: "B树与B+树",
+                        path: '/pages/dataStructure/BTreeAndB+Tree',
+                    }
+                ]
+            },
+            {
                 title: "java基础",
                 collapsable: false,
                 children: [
@@ -76,6 +86,18 @@ module.exports = {
                             {
                                 title: "图解Zookeeper服务注册",
                                 path: '/pages/advanced/Zookeeper/Zookeeper_2',
+                            }
+                        ]
+                    },{
+                        title: "MySQL",
+                        children: [
+                            {
+                                title: "MySQL简介",
+                                path: '/pages/advanced/MySQL/MySQL_1',
+                            },
+                            {
+                                title: "MySQL索引",
+                                path: '/pages/advanced/MySQL/MySQL_2',
                             }
                         ]
                     }

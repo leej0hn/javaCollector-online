@@ -4,7 +4,7 @@
 
 B-树是一种自平衡的搜索树，形式很简单：
 
-![B树](B%E6%A0%91%E4%B8%8EB+%E6%A0%91.assets/B%E6%A0%91.png)
+![B树](./BTreeAndB+Tree.assets/BTree.png)
 
 这就是一颗B-树。针对我们这个问题的最核心的特点如下：
 （1）多路，非二叉树
@@ -15,7 +15,7 @@ B-树是一种自平衡的搜索树，形式很简单：
 
 B+树是B-树的变种
 
-![B+树](B%E6%A0%91%E4%B8%8EB+%E6%A0%91.assets/B+%E6%A0%91.png)
+![B+树](./BTreeAndB+Tree.assets/B+Tree.png)
 
 最核心的特点如下：
 （1）多路非二叉

@@ -20,4 +20,4 @@
 ## 1. 逻辑图
 
 ### 1.1 
-![逻辑图2](Mysql_1.assets/%E9%80%BB%E8%BE%91%E5%9B%BE2.png)
+![](./MySQL_1.assets/1.png)
