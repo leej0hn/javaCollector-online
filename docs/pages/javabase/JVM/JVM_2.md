@@ -4,13 +4,13 @@
 
  本文从7个维度梳理JVM相关知识点，分别是：内存结构、内存回收、 类加载机制、 class文件结、 对象、 内存相关、 JVM调优。
 
-![图片](JVM_2_%E8%84%91%E5%9B%BE.assets/1.JVM7大块.png)
+![图片](././JVM_2.assets/JVM_2_1.png)
 
 ## 一、内存结构
 
  值得特别说明一下的是方法区属于逻辑概念，在《Java虚拟机规范》中定义了方法区的概念与作用。HotSpot在JDK8之前用永久代来实现，之后引入了元空间。
 
-![内存结构](JVM_2_%E8%84%91%E5%9B%BE.assets/2.%E5%86%85%E5%AD%98%E7%BB%93%E6%9E%84.png)
+![内存结构](././JVM_2.assets/JVM_2_2.png)
 
 ## 二、内存回收
 
@@ -18,7 +18,7 @@
 
  CMS存会产生空间碎片，浮动垃圾无法处理。
 
-![内存回收](JVM_2_%E8%84%91%E5%9B%BE.assets/3.%E5%86%85%E5%AD%98%E5%9B%9E%E6%94%B6.png)
+![内存回收](././JVM_2.assets/JVM_2_3.png)
 
 ## 三、类加载机制
 
@@ -26,17 +26,17 @@
 
  容易忽略的是如何破坏双亲委派机制。
 
-![4.类加载机制](JVM_2_%E8%84%91%E5%9B%BE.assets/4.%E7%B1%BB%E5%8A%A0%E8%BD%BD%E6%9C%BA%E5%88%B6.png)
+![4.类加载机制](././JVM_2.assets/JVM_2_4.png)
 
 ## 四、Class文件结构
 
-![5.class文件结构](JVM_2_%E8%84%91%E5%9B%BE.assets/5.class%E6%96%87%E4%BB%B6%E7%BB%93%E6%9E%84.png)
+![5.class文件结构](././JVM_2.assets/JVM_2_5.png)
 
 ## 五、对象
 
  容易忽略点有栈上也可以分配内存给对象，但需要经过逃逸分析
 
-![6.对象](JVM_2_%E8%84%91%E5%9B%BE.assets/6.%E5%AF%B9%E8%B1%A1.png)
+![6.对象](././JVM_2.assets/JVM_2_6.png)
 
 ## 六、内存相关
 
@@ -44,10 +44,10 @@
 
  GC触发条件。
 
-![7.内存相关](JVM_2_%E8%84%91%E5%9B%BE.assets/7.%E5%86%85%E5%AD%98%E7%9B%B8%E5%85%B3.png)
+![7.内存相关](././JVM_2.assets/JVM_2_7.png)
 
 ## 七、JVM调优
 
  重点：GC健康指标。
 
-![8.JVM调优](JVM_2_%E8%84%91%E5%9B%BE.assets/8.JVM%E8%B0%83%E4%BC%98.png)
+![8.JVM调优](././JVM_2.assets/JVM_2_8.png)

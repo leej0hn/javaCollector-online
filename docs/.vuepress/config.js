@@ -57,6 +57,10 @@ module.exports = {
                             {
                                 title: "概述JVM",
                                 path: '/pages/javabase/JVM/JVM_1',
+                            },
+                            {
+                                title: "JVM脑图",
+                                path: '/pages/javabase/JVM/JVM_2',
                             }
                         ]
                     },
