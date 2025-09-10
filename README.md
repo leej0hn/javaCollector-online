@@ -15,3 +15,5 @@
 
 # 静态页面地址
     https://leej0hn.github.io/javaCollector-online/
+# 文件编辑
+vscode插件markMap 画思维导图，导出html, 然后 内嵌 md。
